@@ -9,6 +9,6 @@ location: Los Angeles
 link: https://thinkspaceprojects.com/shows/nerdstalgia-gallery-iv-2024/show-pieces/
 image_url:
 date: 2024-02-10 06:00:00
-current: true
+current: false
 tags: news nerdstalgia
 ---
