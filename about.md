@@ -19,6 +19,10 @@ redirect_from: /about.html
 
 ## Solo Exhibitions
 
+### 2025
+
+- *Rainbow's End*, Beinart Gallery, Australia
+
 ### 2023
 
 - *Secret Garden*, Thinkspace Projects, USA
