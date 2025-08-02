@@ -50,6 +50,10 @@ redirect_from: /about.html
 ## Group Exhibitions
 
 ### 2025
+- *SMOL 2.0*, Thinkspace Projects, USA
+- *Just Like Honey*, Seattle Art Fair, USA (Antler Gallery)
+- *Elevate*, BSMT Gallery, London (Thinkspace Projects)
+- *Micro Visions 8*, WOW X WOW Gallery, (WOW X WOW Gallery)
 - *Aesop's Fables*, Haven Gallery, USA
 - *Perseverance*, Thinkspace Projects, USA
 

@@ -9,6 +9,6 @@ location: Glendale, California
 link: https://thinkspaceprojects.com/shows/perseverance-20-years-of-thinkspace-brand-library-glendale-ca/show-pieces/
 image_url:
 date: 2025-02-01 05:00:00
-current: true
+current: false
 tags: news perseverance thinkspace-gallery brand-library-and-arts-center
 ---

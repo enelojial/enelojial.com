@@ -9,6 +9,6 @@ location: New York
 link: https://havengallery.com/portfolio/aesops-fables/?aa_piece=war-horse-erica-berkowitz
 image_url:
 date: 2025-02-22 06:00:00
-current: true
+current: false
 tags: news aesops-fables haven-gallery
 ---
