@@ -9,6 +9,6 @@ image_url: /images/paintings/first-love.jpg
 image_thumb_url: /images/thumbnails/paintings/first-love.jpg
 date:   2016-12-03
 tags: paintings thinkspace beside-you 2017 solo
-available_url: https://www.jolenelaiart.com/contact/
+available_url: https://shop.jolenelaiart.com/products/first-love
 price: $2400
 ---
