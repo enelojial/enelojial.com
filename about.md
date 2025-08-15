@@ -50,6 +50,7 @@ redirect_from: /about.html
 ## Group Exhibitions
 
 ### 2025
+- *Small Works*, Beinart Gallery, Australia
 - *SMOL 2.0*, Thinkspace Projects, USA
 - *Just Like Honey*, Seattle Art Fair, USA (Antler Gallery)
 - *Elevate*, BSMT Gallery, London (Thinkspace Projects)
