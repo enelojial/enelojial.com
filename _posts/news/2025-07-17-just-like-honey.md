@@ -9,6 +9,6 @@ location: Seattle
 link: https://www.antlerpdx.com/collections/just-like-honey-2025/products/jolene-lai-ornithopter
 image_url:
 date: 2025-07-17 06:00:00
-current: true
+current: false
 tags: news just-like-honey antler-gallery seattle-art-fair
 ---

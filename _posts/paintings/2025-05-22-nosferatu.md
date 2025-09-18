@@ -9,6 +9,6 @@ image_url: /images/paintings/nosferatu.jpg
 image_thumb_url: /images/thumbnails/paintings/nosferatu.jpg
 date:   2025-05-22
 tags: paintings nosferatu jolene-lai bsmt thinkspace-projects
-available_url: https://www.bsmt.co.uk/product-page/nosferatu-by-jolene-lai
-price: £1,550
+available_url: https://thinkspaceprojects.com/artists/jolene-lai/
+price: $1700
 ---
