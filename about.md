@@ -50,6 +50,10 @@ redirect_from: /about.html
 ## Group Exhibitions
 
 ### 2025
+- *SCOPE Miami Beach*, SCOPE Art Show, USA (Thinkspace Projects)
+- *Little Big X*, Haven Gallery, USA
+- *Strange Pathways*, MOAH, USA (Thinkspace Projects)
+- *Extracurricular Activities*, Thinkspace Projects, USA
 - *Vanguard*, Outré Gallery, Australia
 - *Small Works*, Beinart Gallery, Australia
 - *SMOL 2.0*, Thinkspace Projects, USA
