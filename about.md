@@ -53,6 +53,7 @@ redirect_from: /about.html
 - *16 x 20*, Harman Projects, USA
 - *Meliorism*, Harman Projects, USA (Thinkspace Projects)
 
+
 ### 2025
 - *SCOPE Miami Beach*, SCOPE Art Show, USA (Thinkspace Projects)
 - *Little Big X*, Haven Gallery, USA
