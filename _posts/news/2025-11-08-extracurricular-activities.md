@@ -9,6 +9,6 @@ location: Los Angeles
 link: https://thinkspaceprojects.com/shows/extracurricular-activities-2025/show-pieces/
 image_url:
 date: 2025-11-08 06:00:00
-current: true
+current: false
 tags: news extracurricular-activities thinkspace-projects
 ---

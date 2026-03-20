@@ -9,6 +9,6 @@ location: WOW X WOW Gallery
 link: https://wowxwow.com/shop/microvisions-8/ferdinands-bee-jolene-lai
 image_url:
 date: 2025-05-02 05:00:00
-current: true
+current: false
 tags: news micro-visions-8 wow-x-wow
 ---

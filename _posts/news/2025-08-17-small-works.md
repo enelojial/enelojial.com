@@ -9,7 +9,7 @@ location: Australia
 link: https://beinart.org/collections/small-works-2025
 image_url:
 date: 2025-08-17 05:00:00
-current: true
+current: false
 tags: news beinart-gallery small-works
 ---
  

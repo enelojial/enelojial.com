@@ -9,7 +9,7 @@ location: New York
 link: https://havengallery.com/portfolio/little-big-x/?aa_piece=autumn-erica-berkowitz-35045c
 image_url:
 date: 2025-11-29
-current: true
+current: false
 tags: news haven-gallery little-big-x
 ---
 
