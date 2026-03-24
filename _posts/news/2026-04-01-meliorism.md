@@ -6,7 +6,7 @@ opening: Saturday, March 21st, 6-8PM
 on_view: March 21st - April 11th, 2026
 venue: Harman Projects
 location: New York
-link: https: https://shop.thinkspaceprojects.com/collections/meliorism/products/jolene-lai-cherubi
+link: https://shop.thinkspaceprojects.com/collections/meliorism/products/jolene-lai-cherubi
 date: 2026-03-21 6:00:00
 current: true
 tags: news meliorism harman-projects thinkspace-projects
