@@ -52,6 +52,7 @@ redirect_from: /about.html
 ### 2026
 - *16 x 20*, Harman Projects, USA
 - *Meliorism*, Harman Projects, USA (Thinkspace Projects)
+- *Our Fantabulously Furry Feline Friends*, Thinkspace Projects, USA
 
 
 ### 2025
