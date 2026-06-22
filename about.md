@@ -50,6 +50,8 @@ redirect_from: /about.html
 ## Group Exhibitions
 
 ### 2026
+- *The Moleskin Project XIII*, Harman Projects, USA
+- *Small Mercies*, Antler Gallery & Talon Gallery, USA (Thinkspace Projects)
 - *16 x 20*, Harman Projects, USA
 - *Meliorism*, Harman Projects, USA (Thinkspace Projects)
 - *Our Fantabulously Furry Feline Friends*, Thinkspace Projects, USA
