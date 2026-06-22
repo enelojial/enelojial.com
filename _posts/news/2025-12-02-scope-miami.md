@@ -8,6 +8,6 @@ venue: SCOPE Art Show
 location: Miami
 link: https://thinkspaceprojects.com/shows/scope-miami-beach-group-show-2025/show-pieces/?preview=5C0P3-2025
 date: 2025-12-02 12:00:00
-current: true
+current: false
 tags: news scope-art-miami
 ---
