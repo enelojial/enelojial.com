@@ -8,6 +8,6 @@ venue: Harman Projects
 location: New York
 link: https://shop.thinkspaceprojects.com/collections/meliorism/products/jolene-lai-cherubi
 date: 2026-03-21 6:00:00
-current: true
+current: false
 tags: news meliorism harman-projects thinkspace-projects
 ---

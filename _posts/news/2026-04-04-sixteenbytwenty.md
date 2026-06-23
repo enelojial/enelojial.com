@@ -8,6 +8,6 @@ venue: Harman Projects
 location: San Francisco 
 link: https://www.harmanprojects.com/exhibitions/99-16-x-20/preview=5C0P3-2025
 date: 2026-04-04 5:00:00
-current: true
+current: false
 tags: news harman-projects san-francisco 
 ---
