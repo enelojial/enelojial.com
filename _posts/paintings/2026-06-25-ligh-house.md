@@ -9,4 +9,6 @@ image_url: /images/paintings/lighthouse.jpg
 image_thumb_url: /images/thumbnails/paintings/lighthouse.jpg
 date:   2026-06-25
 tags: paintings lighthouse jolene-lai thinkspace-projects antler-gallery
+available_url: https://shop.thinkspaceprojects.com/collections/small-mercies-group-exhibit/products/jolene-lai-lighthouse
+price: $1700
 ---
