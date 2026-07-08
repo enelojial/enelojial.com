@@ -6,7 +6,7 @@ opening: Saturday, June 25th, 6-9PM
 on_view: June 25th - July 25th, 2026
 venue: Antler Gallery + Talon Gallery
 location: Portland, OR
-link: https://thinkspaceprojects.com/shows/small-mercies-taking-place-at-antler-gallery-talon-gallery-portland/
+link: https://shop.thinkspaceprojects.com/collections/small-mercies-group-exhibit/products/jolene-lai-lighthouse
 date: 2026-06-25 6:00:00
 current: true
 tags: news thinkspace-projects portland small-mercies
