@@ -50,6 +50,8 @@ redirect_from: /about.html
 ## Group Exhibitions
 
 ### 2026
+- *Small Works*, Beinart Gallery, Australia
+- *SMOL 3.0*, Thinkspace Projects, USA
 - *The Moleskin Project XIII*, Harman Projects, USA
 - *Small Mercies*, Antler Gallery & Talon Gallery, USA (Thinkspace Projects)
 - *16 x 20*, Harman Projects, USA
