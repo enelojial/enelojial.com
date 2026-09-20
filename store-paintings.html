@@ -7,7 +7,7 @@ permalink: /store/paintings
   <div class="row">
     {% for post in site.tags.paintings reversed %}
       {% if post.available_url %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.available_url }}" target="_blank">
           <div class="col" style="background-image: url(
             {% if post.image_thumb_url %}
               {{ post.image_thumb_url | prepend: site.baseurl }}
