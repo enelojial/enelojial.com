@@ -18,3 +18,12 @@ permalink: /store/
   {% endif %}
   {% endfor %}
 </div>
+
+<div class="news">
+  <h1>Drawings</h1>
+  {% for post in site.tags.drawings reversed %}
+  {% if post.available_url %}
+    {% include store-item.html %}
+  {% endif %}
+  {% endfor %}
+</div>
