@@ -3,27 +3,49 @@ layout: default
 permalink: /store/
 ---
 
-<div class="news">
-  <h1>Limited Edition Prints</h1>
-  {% for post in site.tags.store reversed %}
-    {% include store-item.html %}
-  {% endfor %}
-</div>
 
-<div class="news">
-  <h1>Original Art</h1>
-  {% for post in site.tags.paintings reversed %}
-  {% if post.available_url %}
-    {% include store-item.html %}
-  {% endif %}
-  {% endfor %}
-</div>
+{% if site.tags.store.last  %}
+  {% assign print = site.tags.store.last %}
+  print.available_url = "/store/prints"
+{% endif %}
 
-<div class="news">
-  <h1>Drawings</h1>
-  {% for post in site.tags.drawings reversed %}
+{% for post in site.tags.paintings reversed %}
   {% if post.available_url %}
-    {% include store-item.html %}
+    {% assign painting = post %}
+    painting.available_url = "/store/paintings"
+    {% break %}
   {% endif %}
-  {% endfor %}
-</div>
+{% endfor %}
+
+{% for post in site.tags.drawings reversed %}
+  {% if post.available_url %}
+    {% assign drawing = post %}
+    drawing.available_url = "/store/drawings"
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+  
+{% if print %}
+  {% assign post = print %}
+  <div class="news">
+    <h1>Prints</h1>
+    {% include store-item.html %}
+  </div>
+{% endif %}
+
+{% if painting %}
+  {% assign post = painting %}
+  <div class="news">
+    <h1>Paintings</h1>
+    {% include store-item.html %}
+  </div>
+{% endif %}
+
+{% if drawing %}
+  {% assign post = drawing %}
+  <div class="news">
+    <h1>Drawings</h1>
+    {% include store-item.html %}
+  </div>
+{% endif %}
