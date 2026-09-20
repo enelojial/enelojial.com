@@ -6,13 +6,13 @@ permalink: /store/
 
 {% if site.tags.store.last  %}
   {% assign print = site.tags.store.last %}
-  print.available_url = "/store/prints"
+  {% assign print.available_url = "/store/prints" %}
 {% endif %}
 
 {% for post in site.tags.paintings reversed %}
   {% if post.available_url %}
     {% assign painting = post %}
-    painting.available_url = "/store/paintings"
+    {% assign painting.available_url = "/store/paintings" %}
     {% break %}
   {% endif %}
 {% endfor %}
@@ -20,7 +20,7 @@ permalink: /store/
 {% for post in site.tags.drawings reversed %}
   {% if post.available_url %}
     {% assign drawing = post %}
-    drawing.available_url = "/store/drawings"
+    {% assign drawing.available_url = "/store/drawings" %}
     {% break %}
   {% endif %}
 {% endfor %}
