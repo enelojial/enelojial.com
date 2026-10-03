@@ -5,17 +5,19 @@ permalink: /store/prints
 
 <body>
   <div class="row">
-    {% for post in site.tags.store reversed %}
-      <a href="{{ post.available_url }}" target="_blank">
-        <div class="col" style="background-image: url(
-          {% if post.image_thumb_url %}
-            {{ post.image_thumb_url | prepend: site.baseurl }}
-          {% else %}
-            {{ post.image_url | prepend: site.baseurl }}
-          {% endif %}
-            ); background-size: cover">
-        </div>
-      </a>
+    {% for post in site.tags.prints reversed %}
+      {% if post.available_url %}
+        <a href="{{ post.available_url }}" target="_blank">
+          <div class="col" style="background-image: url(
+            {% if post.image_thumb_url %}
+              {{ post.image_thumb_url | prepend: site.baseurl }}
+            {% else %}
+              {{ post.image_url | prepend: site.baseurl }}
+            {% endif %}
+              ); background-size: cover">
+          </div>
+        </a>
+      {% endif %}
     {% endfor %}
   </div>
 </body>

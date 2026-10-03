@@ -3,10 +3,12 @@ layout: default
 permalink: /store/
 ---
 
-
-{% if site.tags.store.last  %}
-  {% assign print = site.tags.store.last %}
-{% endif %}
+{% for post in site.tags.prints reversed %}
+  {% if post.available_url %}
+    {% assign print = post %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
 {% for post in site.tags.paintings reversed %}
   {% if post.available_url %}
