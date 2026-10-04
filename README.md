@@ -4,10 +4,10 @@ This is a Jekyll site published from the `gh-pages` branch with GitHub Pages. Th
 
 ## Preview locally
 
-The locked GitHub Pages bundle is older (GitHub Pages 198 / Jekyll 3.8.5). Run it in Docker with Ruby 2.7.8 and the Bundler version recorded in `Gemfile.lock`. From the repository root, start Docker Desktop and run:
+The site uses the latest published GitHub Pages gem (232) with Jekyll 3.10.0. Run it in Docker with Ruby 3.0.7 and Bundler 2.4.22. From the repository root, start Docker Desktop and run:
 
 ```sh
-docker run --rm -p 4000:4000 -v jekyll-bundle:/usr/local/bundle -v "$PWD:/site" -w /site ruby:2.7.8-bullseye sh -lc 'gem install bundler -v 1.17.3 && bundle _1.17.3_ install && bundle _1.17.3_ exec jekyll serve --host 0.0.0.0'
+docker run --rm -p 4000:4000 -v jekyll-bundle:/usr/local/bundle -v "$PWD:/site" -w /site ruby:3.0.7-bullseye sh -lc 'gem install bundler -v 2.4.22 && bundle _2.4.22_ install && bundle _2.4.22_ exec jekyll serve --host 0.0.0.0'
 ```
 
 Open [http://localhost:4000](http://localhost:4000). Jekyll watches the source files and rebuilds the site as you edit; press `Ctrl+C` in the terminal to stop it. The `jekyll-bundle` Docker volume keeps installed gems between runs. The local site is served at the root path, matching this site's empty `baseurl` setting.
