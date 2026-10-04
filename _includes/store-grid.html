@@ -1,0 +1,16 @@
+<div class="row store-grid">
+  {% for post in site.tags[include.category] reversed %}
+    {% if post.available_url %}
+      <article class="store-item">
+        <a class="store-image" href="{{ post.available_url }}" target="_blank" rel="noopener noreferrer">
+          <img
+            src="{% if post.image_thumb_url %}{{ post.image_thumb_url | prepend: site.baseurl }}{% else %}{{ post.image_url | prepend: site.baseurl }}{% endif %}"
+            alt="{{ post.title }}">
+        </a>
+        <div class="store-item-details">
+          <p>{{ post.title }}{% if post.price %} &bull; {{ post.price }}{% endif %}</p>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+</div>
