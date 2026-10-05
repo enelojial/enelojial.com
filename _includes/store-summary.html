@@ -1,0 +1,30 @@
+{% assign available_count = 0 %}
+{% assign lowest_price = nil %}
+{% assign lowest_price_display = nil %}
+{% assign highest_price = nil %}
+{% assign highest_price_display = nil %}
+
+{% for item in site.tags[include.category] %}
+  {% if item.available_url %}
+    {% assign available_count = available_count | plus: 1 %}
+    {% if item.price %}
+      {% assign numeric_price = item.price | remove: "$" | remove: "," | plus: 0 %}
+      {% if lowest_price == nil %}
+        {% assign lowest_price = numeric_price %}
+        {% assign lowest_price_display = item.price | remove_first: "$" %}
+      {% elsif numeric_price < lowest_price %}
+        {% assign lowest_price = numeric_price %}
+        {% assign lowest_price_display = item.price | remove_first: "$" %}
+      {% endif %}
+      {% if highest_price == nil %}
+        {% assign highest_price = numeric_price %}
+        {% assign highest_price_display = item.price | remove_first: "$" %}
+      {% elsif numeric_price > highest_price %}
+        {% assign highest_price = numeric_price %}
+        {% assign highest_price_display = item.price | remove_first: "$" %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<p><a href="{{ include.url }}">{{ available_count }} {{ include.label }}{% unless available_count == 1 %}s{% endunless %}{% if lowest_price_display %}{% if available_count == 1 %} for ${{ lowest_price_display }}{% elsif lowest_price == highest_price %} for ${{ lowest_price_display }} each{% else %} from ${{ lowest_price_display }} to ${{ highest_price_display }}{% endif %}{% endif %}</a></p>

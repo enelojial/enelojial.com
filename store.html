@@ -25,29 +25,37 @@ permalink: /store/
 {% endfor %}
 
   
-{% if print %}
-  {% assign post = print %}
-  {% assign store_url = "/store/prints" %}
-  <div class="news">
-    <h1>Prints</h1>
-    {% include store-item.html %}
-  </div>
-{% endif %}
+<div class="store-sections">
+  {% if print %}
+    {% assign post = print %}
+    {% assign store_url = "/store/prints" %}
+    <section class="news store-section">
+      {% include store-item.html %}
+      <div class="store-item-details">
+        {% include store-summary.html category="prints" label="print" url=store_url %}
+      </div>
+    </section>
+  {% endif %}
 
-{% if painting %}
-  {% assign post = painting %}
-  {% assign store_url = "/store/paintings" %}
-  <div class="news">
-    <h1>Paintings</h1>
-    {% include store-item.html %}
-  </div>
-{% endif %}
+  {% if painting %}
+    {% assign post = painting %}
+    {% assign store_url = "/store/paintings" %}
+    <section class="news store-section">
+      {% include store-item.html %}
+      <div class="store-item-details">
+        {% include store-summary.html category="paintings" label="painting" url=store_url %}
+      </div>
+    </section>
+  {% endif %}
 
-{% if drawing %}
-  {% assign post = drawing %}
-  {% assign store_url = "/store/drawings" %}
-  <div class="news">
-    <h1>Drawings</h1>
-    {% include store-item.html %}
-  </div>
-{% endif %}
+  {% if drawing %}
+    {% assign post = drawing %}
+    {% assign store_url = "/store/drawings" %}
+    <section class="news store-section">
+      {% include store-item.html %}
+      <div class="store-item-details">
+        {% include store-summary.html category="drawings" label="drawing" url=store_url %}
+      </div>
+    </section>
+  {% endif %}
+</div>
